@@ -1,0 +1,216 @@
+/*-------------------------------------*/
+/*--------------First-Section----------*/
+/*-------------------------------------*/
+
+.first-section {
+  background-image: linear-gradient(
+      rgba(0, 216, 216, 0.2),
+      rgba(248, 238, 238, 0.2),
+      rgba(0, 216, 216, 0.5)
+    ),
+    url(img/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo-copy {
+  display: inline-block;
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+
+.after-logo {
+  padding: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.after-logo a:link,
+.after-logo a:visited {
+  margin-top: 130px;
+  color: #007af6;
+  transition: color 0.2s;
+}
+
+.after-logo a:hover,
+.after-logo a:active {
+  margin-top: 130px;
+  background-color: #007af6;
+  border: 1px solid #007af6;
+  color: #fff;
+}
+
+.after-logo p {
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.btn:link,
+.btn:visited {
+  font-weight: 500;
+}
+.btn-full-copy {
+  background-color: rgba(159, 191, 233, 0.2);
+  border: 1px solid #007cf6;
+  word-spacing: 2px;
+  color: #ffffff;
+}
+
+/*-------------------------------------*/
+/*--------------Second-Section----------*/
+/*-------------------------------------*/
+.second-section {
+  background-color: #fdfdfd;
+  height: 100vh;
+  margin: 0;
+  padding: 50px;
+}
+
+.second-section h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+form {
+  margin-top: 90px;
+}
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  width: 500px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin-top: 25px;
+}
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+input[type="submit"] {
+  display: block;
+  width: 25%;
+  margin-left: 40%;
+  margin-top: 35px;
+}
+
+.checkbox {
+  margin-left: 15%;
+  display: inline-block;
+}
+
+.checkbox a {
+  text-decoration: none;
+  float: right;
+  margin-left: 205px;
+  border-bottom: 0;
+}
+
+.input-icons i {
+  font-size: 110%;
+  color: #007af6;
+  text-align: center;
+  position: absolute;
+}
+
+.input-icons {
+  margin-bottom: 10px;
+  position: relative;
+  direction: ltr;
+  padding-left: 20px;
+  margin-left: 12%;
+  margin-top: 15px;
+}
+
+/*---------------------------------------------------*/
+/*------------------------My Account Page------------*/
+/*---------------------------------------------------*/
+header {
+  height: 10vh;
+}
+
+.logo-account {
+  height: 70px;
+  width: auto;
+  float: left;
+}
+
+.account-nav {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.account-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.account-nav li a:link,
+.account-nav li a:visited {
+  padding: 8px 0;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid #007cf6 transparent;
+  transition: border-bottom 0.3s;
+}
+.account-nav li a:hover,
+.account-nav li a:active {
+  border-bottom: 2px solid #007cf6;
+}
+
+.acc-text {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.acc-name {
+  border: 1px solid #e8e9eb;
+  padding: 40px;
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.acc-name p {
+  font-size: 80%;
+  font-weight: thin;
+  width: 50%;
+  margin: 0;
+}
+
+.acc-name a {
+  display: block;
+  float: right;
+  vertical-align: middle;
+}
+
+.section-order {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.order1 {
+  background-color: #fff;
+  padding: 60px;
+  width: 40%;
+  margin-right: 8%;
+}
+
+.acc-link {
+  margin-top: 40px;
+}
+.ac-num {
+  color: #007af6;
+  opacity: 0.4;
+  margin-left: 10px;
+}
